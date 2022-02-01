@@ -1,2 +1,2 @@
 # BadUSB-Browser
-Steal All Browser Credentials Using Via BasUSB Attack In 5 Seconds.
+Steal All Browser Credentials Via BasUSB Attack In 5 Seconds.
